@@ -81,6 +81,19 @@ To run this project on your local machine:
 4. **Make sure the data files are available**
    - The files `adult.csv` and `adult-preproc.csv` should be in the same folder as the notebooks.
 
+---
+
+## 📝 Final Report (PDF)
+
+The complete report submitted for academic evaluation is available [here (PDF)](Report_Thrasyvoulos_Mastoras.pdf).
+
+It includes:
+- Overview of all 5 project stages
+- Descriptions of preprocessing, clustering, and classification methods
+- Visualizations and evaluation metrics
+- Final conclusions and reflections
+
+> This document provides a structured summary for instructors and evaluators.
 
 ---
 
@@ -91,7 +104,6 @@ University of Piraeus – MSc in Applied Statistics
 📧 thrasos.mastoras@gmail.com  
 
 ---
-
 ## 📚 Dataset
 
 This project uses the [UCI Adult Income Dataset](https://archive.ics.uci.edu/ml/datasets/adult).
