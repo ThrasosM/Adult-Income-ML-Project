@@ -41,28 +41,54 @@ The work was divided into 5 parts:
 
 ## 📂 Files
 
-- `AdultIncomeProject_SMDM_clean.ipynb`: Main notebook with all 5 parts  
-- `requirements.txt`: All necessary libraries  
-- (Optional) `adult.csv`: Preprocessed dataset (if uploaded)
+| File                  | Description                                                 |
+|-----------------------|-------------------------------------------------------------|
+| `Ergasia1.ipynb`      | Data preprocessing and PCA                                  |
+| `Ergasia2.ipynb`      | Feature selection and outlier detection                     |
+| `Ergasia3.ipynb`      | Clustering (K-Means, BIRCH)                                 |
+| `Ergasia4.ipynb`      | Classification with Scikit-learn (Random Forest, KNN)       |
+| `Ergasia5.ipynb`      | Neural Networks with Keras                                  |
+| `adult.csv`           | Original UCI dataset                                        |
+| `adult-preproc.csv`   | Preprocessed dataset used in model training                 |
+| `requirements.txt`    | Python libraries used throughout the project                |
 
 ---
 
 ## 💻 How to Run
 
-```bash
-pip install -r requirements.txt
-jupyter notebook AdultIncomeProject_SMDM_clean.ipynb
-```
+To run this project on your local machine:
 
-Alternatively, open it directly in Google Colab.
+1. **Download or clone the repository**
+   - Click the green "Code" button on the top right of this page
+   - Choose "Download ZIP" and extract it, or run:
+     ```bash
+     git clone https://github.com/ThrasosM/student-ml-project-adult-income.git
+     ```
+
+2. **Install the required Python libraries**
+   - Make sure you have Python 3.x installed
+   - Then open a terminal in the project folder and run:
+     ```bash
+     pip install -r requirements.txt
+     ```
+
+3. **Open the notebooks**
+   - You can open the `.ipynb` files one by one (`Ergasia1.ipynb` to `Ergasia5.ipynb`) using:
+     - Jupyter Notebook
+     - JupyterLab
+     - or Google Colab (just drag and drop the files)
+
+4. **Make sure the data files are available**
+   - The files `adult.csv` and `adult-preproc.csv` should be in the same folder as the notebooks.
+
 
 ---
 
 ## 🧑‍🎓 Author
 
-**Thrasivoulos Mastoras**  
-University of Piraeus – MSc in Data Science  
-📧 mes24002@unipi.gr  
+**Thrasyvoulos Mastoras**  
+University of Piraeus – MSc in Applied Statistics  
+📧 thrasos.mastoras@gmail.com  
 
 ---
 
